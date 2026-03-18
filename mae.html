@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sophia | Retrospectiva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg1:#efd7de;
+      --bg2:#d29aa7;
+      --bg3:#a95e71;
+      --bg4:#6f2e42;
+      --text:#fffafc;
+      --card:rgba(255,255,255,.14);
+      --border:rgba(255,255,255,.22);
+      --shadow:0 18px 45px rgba(73, 16, 31, .18);
+      --shadow-soft:0 10px 28px rgba(73, 16, 31, .12);
+      --wine-dark:#4b1323;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body{
+      font-family:"Montserrat", sans-serif;
+      color:var(--text);
+      background:linear-gradient(180deg, var(--bg1) 0%, var(--bg2) 28%, var(--bg3) 62%, var(--bg4) 100%);
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+
+    .page{
+      width:100%;
+      max-width:460px;
+      margin:0 auto;
+      padding:22px 16px 42px;
+    }
+
+    .hero{
+      text-align:center;
+      margin-bottom:20px;
+      animation:fadeUp .9s ease;
+    }
+
+    .badge{
+      display:inline-block;
+      padding:10px 14px;
+      border-radius:999px;
+      background:rgba(255,255,255,.14);
+      border:1px solid rgba(255,255,255,.2);
+      font-size:.74rem;
+      font-weight:700;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      margin-bottom:18px;
+    }
+
+    .hero h1{
+      font-family:"Great Vibes", cursive;
+      font-size:4rem;
+      font-weight:400;
+      margin-bottom:8px;
+    }
+
+    .hero p{
+      font-size:.96rem;
+      line-height:1.7;
+      color:rgba(255,255,255,.92);
+      max-width:330px;
+      margin:0 auto;
+    }
+
+    .section{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:28px;
+      padding:20px;
+      backdrop-filter:blur(12px);
+      box-shadow:var(--shadow);
+      margin-bottom:16px;
+      animation:fadeUp .9s ease;
+    }
+
+    .section-title{
+      text-align:center;
+      font-size:.8rem;
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-weight:800;
+      margin-bottom:14px;
+    }
+
+    .text{
+      white-space:pre-line;
+      font-size:.97rem;
+      line-height:1.9;
+      color:rgba(255,255,255,.94);
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+    }
+
+    .gallery img{
+      width:100%;
+      min-height:170px;
+      object-fit:cover;
+      border-radius:22px;
+      display:block;
+      border:1px solid rgba(255,255,255,.15);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .video-box{
+      border-radius:24px;
+      overflow:hidden;
+      background:rgba(255,255,255,.14);
+      border:1px solid rgba(255,255,255,.16);
+      box-shadow:var(--shadow-soft);
+    }
+
+    .video-box video{
+      width:100%;
+      display:block;
+      background:#000;
+    }
+
+    .final{
+      text-align:center;
+    }
+
+    .final h2{
+      font-size:1.3rem;
+      margin-bottom:10px;
+    }
+
+    .final p{
+      font-size:.95rem;
+      line-height:1.8;
+      color:rgba(255,255,255,.9);
+    }
+
+    @keyframes fadeUp{
+      from{
+        opacity:0;
+        transform:translateY(18px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="badge">Retrospectiva especial</div>
+      <h1>Sophia</h1>
+      <p>
+        E tem alguém que também queria te lembrar da história linda que você construiu até aqui.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Mensagem da mãe</div>
+      <div class="text">Filha,
+
+hoje meu coração se enche de emoção ao olhar para você e perceber o quanto o tempo passou rápido. Parece que foi ontem que eu te carregava no colo, e agora estou vendo uma menina linda, crescendo, sonhando e iluminando a vida de todos ao seu redor.
+
+Cada fase sua ficou guardada em mim com muito amor. Seu sorriso, seus primeiros momentos, suas descobertas, suas mudanças, tudo isso faz parte da história mais linda que eu poderia viver.
+
+Que seus 15 anos sejam apenas o começo de uma fase maravilhosa, cheia de luz, amor, saúde, alegria e sonhos realizados. Que você nunca duvide do quanto é especial, forte e amada.
+
+Com todo o amor do mundo,</div>
+      <div style="text-align:right;font-family:'Great Vibes',cursive;font-size:2rem;margin-top:16px;">Mãe</div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Memórias</div>
+      <div class="gallery">
+        <img src="img/mae1.jpg" alt="Foto da infância 1">
+        <img src="img/mae2.jpg" alt="Foto da infância 2">
+        <img src="img/mae3.jpg" alt="Foto da infância 3">
+        <img src="img/mae4.jpg" alt="Foto da infância 4">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">Vídeo retrospectiva</div>
+      <div class="video-box">
+        <video controls playsinline preload="metadata" poster="img/capa-video-mae.jpg">
+          <source src="video/video-mae.mp4" type="video/mp4">
+          Seu navegador não suporta vídeo em HTML5.
+        </video>
+      </div>
+    </section>
+
+    <section class="section final">
+      <div class="section-title">Final</div>
+      <h2>15 anos de uma história linda</h2>
+      <p>
+        E isso é só o começo de tudo o que ainda está por vir.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
