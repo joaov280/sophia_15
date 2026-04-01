@@ -160,6 +160,26 @@
         transform:translateY(0);
       }
     }
+
+.video-link{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-height:58px;
+  padding:16px 18px;
+  margin-top:12px;
+  border-radius:18px;
+  text-decoration:none;
+  font-size:.98rem;
+  font-weight:800;
+  letter-spacing:.02em;
+  color:#4b1323;
+  background:linear-gradient(135deg, #fff 0%, #ffe8ef 100%);
+  border:1px solid rgba(255,255,255,.48);
+  box-shadow:0 10px 28px rgba(73,16,31,.12);
+}
+
   </style>
 </head>
 <body>
@@ -189,22 +209,29 @@ Com todo o amor do mundo,</div>
     <section class="section">
       <div class="section-title">Memórias</div>
       <div class="gallery">
-        <img src="img/mae1.jpg" alt="Foto da infância 1">
-        <img src="img/mae2.jpg" alt="Foto da infância 2">
-        <img src="img/mae3.jpg" alt="Foto da infância 3">
-        <img src="img/mae4.jpg" alt="Foto da infância 4">
+        <img src="mae1.jpg" alt="Foto da infância 1">
+        <img src="mae2.jpg" alt="Foto da infância 2">
+        <img src="mae3.jpg" alt="Foto da infância 3">
+        <img src="mae4.jpg" alt="Foto da infância 4">
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-title">Vídeo retrospectiva</div>
-      <div class="video-box">
-        <video controls playsinline preload="metadata" poster="img/capa-video-mae.jpg">
-          <source src="video/video-mae.mp4" type="video/mp4">
-          Seu navegador não suporta vídeo em HTML5.
-        </video>
-      </div>
-    </section>
+ <section class="section">
+  <div class="section-title">Vídeo retrospectiva</div>
+
+  <div class="video-box">
+    <img src="capavideo.jpg" alt="Capa do vídeo retrospectiva" style="width:100%; display:block;">
+  </div>
+
+  <a
+    class="video-link"
+    href="https://gamasti-my.sharepoint.com/:v:/g/personal/andressa_teizen_moovefy_com_br/IQDBIE1dIoclSZGEjmu_AvAKAY9DlRgjjuiCo58u_YbpNtg?e=FSHESd"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ▶ Assistir vídeo retrospectiva
+  </a>
+</section>
 
     <section class="section final">
       <div class="section-title">Final</div>
